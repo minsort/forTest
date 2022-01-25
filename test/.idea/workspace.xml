@@ -1,81 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91de9d02-280f-408b-90aa-85eb741468c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/CourseCompletionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/ProfControllerReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/ProfessorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/StudCourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/CourseCompletion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/ProfCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/StudCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/models/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/report/ProfExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/report/TotalStatistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/CourseCompletionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/ProfCourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/ProfessorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/repository/StudСourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/CourseCompletionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/ProfForReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/ProfessorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/testProject/service/StudСourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/allGood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/profDellSucc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/test/TestApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/test.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/TestApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/CourseCompletionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/ProfControllerReport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/ProfessorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/StudCourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/controller/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/Course.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/CourseCompletion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/ProfCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/Professor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/StudCourse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/models/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/report/ProfExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/report/TotalStatistics.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/CourseCompletionRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/CourseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/ProfCourseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/ProfessorRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/repository/StudСourseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/CourseCompletionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/CourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/ProfForReportService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/ProfessorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/testProject/service/StudСourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/allGood.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/profDellSucc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/test/TestApplicationTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="91de9d02-280f-408b-90aa-85eb741468c7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,17 +15,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -355,16 +271,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643120762700</updated>
-      <workItem from="1643120764292" duration="255000" />
+      <workItem from="1643120764292" duration="486000" />
     </task>
+    <task id="LOCAL-00001" summary="my best commit">
+      <created>1643121138140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643121138140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="255000" />
+    <option name="totallyTimeSpent" value="486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -372,12 +295,13 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -401,6 +325,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my best commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="my best commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/testProject/controller/CourseController.java">
